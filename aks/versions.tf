@@ -1,3 +1,6 @@
+# AKS provider
+# Version files required for AKS cluster
+# Developed by Joydeep Roy
 terraform {
   required_providers {
     azurerm = {
