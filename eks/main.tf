@@ -1,3 +1,7 @@
+# EKS provider
+# Main terraform file to build the EKS cluster initial infrastucture build up file
+# Creating the VPCs , public and private subnet ,EKS clusters with the control plane and worker nodes
+# Developed by Joydeep Roy
 provider "aws" {
   region = "us-east-2"
 }
