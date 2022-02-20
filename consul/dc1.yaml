@@ -1,5 +1,6 @@
 ## WARNING! This Consul configuration disables ACLs and does not use gossip encryption. It should not be used in production environments
-
+# Initial configuration for primary datacentre maintained in Consul / EKS
+# Joydeep Roy
 global:
   name: consul
   datacenter: dc1

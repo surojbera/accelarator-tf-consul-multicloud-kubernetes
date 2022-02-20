@@ -1,4 +1,8 @@
-## EKS Resources
+# Primary and secondary datacenter creation
+# Primary datacenter maintained in EKS and Secondary datacenter maintained in AKS
+# Then create the Consul datacenter with specific configuration in EKS and secondary Consul
+# datacenter in AKS cluster
+# Joydeep Roy
 
 data "terraform_remote_state" "eks" {
   backend = "local"

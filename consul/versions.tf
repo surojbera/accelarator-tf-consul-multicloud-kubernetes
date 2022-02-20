@@ -1,3 +1,6 @@
+# Terraform fundamental Block creation providing the initial helm and kubernetes version
+# Joydeep Roy
+
 terraform {
   required_providers {
     helm = {
