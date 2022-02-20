@@ -1,5 +1,6 @@
-# ## AKS resources
-
+# ## AKS resources and AWS resources to build up the k8S clusters
+# Sample service creation and deployment in the infrastructure
+# Joydeep Roy
 data "terraform_remote_state" "aks" {
   backend = "local"
   config = {
