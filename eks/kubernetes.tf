@@ -1,6 +1,6 @@
 # Kubernetes provider
 # The Kubernetes AWS EKS file
-# Developed by Joydeep Roy
+# Joydeep Roy
 
 data "aws_eks_cluster" "cluster" {
   name = module.eks.cluster_id

@@ -1,6 +1,6 @@
 # Version block
 # Version block created for the EKS cluster
-# Developed by Joydeep Roy
+# Joydeep Roy
 terraform {
   required_providers {
     aws = {
