@@ -1,3 +1,7 @@
+# Template for the terraform provider version details
+# Maintaining the Fundamental block for the terraform provider
+# @Author : Joydeep Roy (joydeep.roy@capgemini.com)
+
 terraform {
   required_providers {
     aws = {

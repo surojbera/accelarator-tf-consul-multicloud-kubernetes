@@ -1,3 +1,6 @@
+#Template for the terraform output file
+# @Author : Joydeep Roy (joydeep.roy@capgemini.com)
+
 output "cluster_id" {
   description = "EKS cluster ID."
   value       = module.eks.cluster_id

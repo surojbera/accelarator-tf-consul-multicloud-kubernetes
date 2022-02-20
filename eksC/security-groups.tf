@@ -1,6 +1,7 @@
-
-resource "aws_security_group" "worker_group_mgmt_one" {
-  name_prefix = "worker_group_mgmt_one"
+#Template for the terraform security group creation
+# @Author : Joydeep Roy (joydeep.roy@capgemini.com)
+resource "aws_security_group" "eks_worker_group_mgmt_one" {
+  name_prefix = "eks_worker_group_mgmt_one"
   vpc_id      = module.vpc.vpc_id
 
   ingress {
@@ -14,8 +15,8 @@ resource "aws_security_group" "worker_group_mgmt_one" {
   }
 }
 
-resource "aws_security_group" "worker_group_mgmt_two" {
-  name_prefix = "worker_group_mgmt_two"
+resource "aws_security_group" "eks_worker_group_mgmt_two" {
+  name_prefix = "eks_worker_group_mgmt_two"
   vpc_id      = module.vpc.vpc_id
 
   ingress {
