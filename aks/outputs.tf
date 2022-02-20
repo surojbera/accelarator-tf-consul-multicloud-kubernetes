@@ -1,6 +1,6 @@
 # AKS provider
 # Output files required for AKS cluster
-# Developed by Joydeep Roy
+# Joydeep Roy
 output "resource_group_name" {
   description = "Azure resource group name"
   value       = azurerm_resource_group.default.name

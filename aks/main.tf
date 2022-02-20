@@ -1,7 +1,7 @@
 # AKS provider
 # Main terraform file to build the AKS cluster initial infrastructure build up file
 # Creating the Nodepool , resourcegroups
-# Developed by Joydeep Roy
+# Joydeep Roy
 
 resource "random_pet" "prefix" {}
 
